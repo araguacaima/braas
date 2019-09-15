@@ -1,0 +1,6 @@
+[submodule "braas-core"]
+	path = braas-core
+	url = https://github.com/araguacaima/braas-core
+[submodule "braas-api"]
+	path = braas-api
+	url = https://github.com/araguacaima/braas-api
