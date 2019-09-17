@@ -454,7 +454,7 @@
                 <scope>compile</scope>
             </dependency>
 
-            <dependency>
+<!--            <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi</artifactId>
                 <version>${org.apache.poi-poi}</version>
@@ -466,7 +466,7 @@
                 <artifactId>poi-ooxml</artifactId>
                 <version>${org.apache.poi-poi}</version>
                 <scope>compile</scope>
-            </dependency>
+            </dependency>-->
 
             <dependency>
                 <groupId>org.atteo</groupId>
