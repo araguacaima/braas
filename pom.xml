@@ -181,7 +181,7 @@
         <slf4j.version>1.7.26</slf4j.version>
         <snowdrop.version>4.0.0.Final</snowdrop.version>
         <sparkPac4j.version>2.3.0</sparkPac4j.version>
-        <org.jooq-joor>0.9.12</org.jooq-joor>
+        <org.jooq-joor-java-8>0.9.12</org.jooq-joor-java-8>
 
     </properties>
 
@@ -490,8 +490,8 @@
 
             <dependency>
                 <groupId>org.jooq</groupId>
-                <artifactId>joor</artifactId>
-                <version>${org.jooq-joor}</version>
+                <artifactId>joor-java-8</artifactId>
+                <version>${org.jooq-joor-java-8}</version>
                 <scope>compile</scope>
             </dependency>
 
