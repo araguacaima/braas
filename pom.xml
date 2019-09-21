@@ -22,7 +22,7 @@
     <artifactId>parent</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Parent</name>
+    <name>BraaS</name>
     <description>Business Rules as a Service - Parent</description>
     <url>http://maven.apache.org</url>
 
@@ -488,14 +488,6 @@
                 <scope>test</scope>
             </dependency>
 
-            <dependency>
-                <groupId>org.jooq</groupId>
-                <artifactId>joor-java-8</artifactId>
-                <version>${org.jooq-joor-java-8}</version>
-                <scope>compile</scope>
-            </dependency>
-
-
         </dependencies>
 
     </dependencyManagement>
@@ -504,7 +496,6 @@
         <module>braas-core</module>
         <module>braas-api</module>
     </modules>
-
 
     <profiles>
         <profile>
