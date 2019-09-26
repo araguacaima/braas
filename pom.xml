@@ -137,7 +137,6 @@
         <org.apache.maven-maven-plugin-api>3.0</org.apache.maven-maven-plugin-api>
         <org.apache.maven.plugin-maven-dependency-plugin>3.0.1</org.apache.maven.plugin-maven-dependency-plugin>
         <org.apache.maven.plugin-maven-jar-plugin>3.0.2</org.apache.maven.plugin-maven-jar-plugin>
-        <org.apache.maven.plugin-maven-source-plugin>2.4</org.apache.maven.plugin-maven-source-plugin>
         <org.apache.maven.plugin-maven-source-plugin>3.0.1</org.apache.maven.plugin-maven-source-plugin>
         <org.apache.maven.plugin-maven-surefire-plugin>3.0.0-M3</org.apache.maven.plugin-maven-surefire-plugin>
         <org.apache.maven.plugin-tools-maven-plugin-annotations>3.4
@@ -177,12 +176,11 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <rome.version>1.5.0</rome.version>
         <slf4j.version>1.7.26</slf4j.version>
-        <slf4j.version>1.7.26</slf4j.version>
-        <slf4j.version>1.7.26</slf4j.version>
         <snowdrop.version>4.0.0.Final</snowdrop.version>
         <sparkPac4j.version>2.3.0</sparkPac4j.version>
         <org.jooq-joor-java-8>0.9.12</org.jooq-joor-java-8>
-
+        <org.mongodb-mongo-java-driver>3.11.0</org.mongodb-mongo-java-driver>
+        <org.mongojack-mongojack>2.10.0</org.mongojack-mongojack>
     </properties>
 
     <dependencyManagement>
@@ -486,6 +484,13 @@
                 <artifactId>jfairy</artifactId>
                 <version>${io.codearte.jfairy-jfairy}</version>
                 <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongo-java-driver</artifactId>
+                <version>${org.mongodb-mongo-java-driver}</version>
+                <scope>compile</scope>
             </dependency>
 
         </dependencies>
