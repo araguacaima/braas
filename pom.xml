@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.araguacaima.braas</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.1</version>
     <packaging>pom</packaging>
     <name>BraaS</name>
     <description>Business Rules as a Service - Parent</description>
@@ -74,10 +74,7 @@
     <properties>
         <aspectj.version>1.8.4</aspectj.version>
         <backport-util-concurrent-backport-util-concurrent>3.1</backport-util-concurrent-backport-util-concurrent>
-        <com.araguacaima-braas>1.0.1-SNAPSHOT</com.araguacaima-braas>
-        <com.araguacaima-commons-utils>1.0.1-SNAPSHOT</com.araguacaima-commons-utils>
-        <com.araguacaima-composite-specification>1.0.1-SNAPSHOT</com.araguacaima-composite-specification>
-        <com.araguacaima-orpheus-db>1.0.1-SNAPSHOT</com.araguacaima-orpheus-db>
+        <com.araguacaima-commons-utils>1.1</com.araguacaima-commons-utils>
         <com.fasterxml.jackson.core-jackson-annotations>2.9.8</com.fasterxml.jackson.core-jackson-annotations>
         <com.fasterxml.jackson.core-jackson-core>2.9.8</com.fasterxml.jackson.core-jackson-core>
         <com.fasterxml.jackson.core-jackson-databind>2.9.8</com.fasterxml.jackson.core-jackson-databind>
@@ -215,17 +212,17 @@
                 <artifactId>commons-utils</artifactId>
                 <version>${com.araguacaima-commons-utils}</version>
                 <scope>compile</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.apache.cxf</groupId>
-                        <artifactId>cxf-bundle-jaxrs</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
                 <groupId>com.araguacaima.braas</groupId>
                 <artifactId>braas-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.araguacaima.braas</groupId>
+                <artifactId>braas-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
