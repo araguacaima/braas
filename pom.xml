@@ -154,7 +154,7 @@
         <org.codehaus.mojo-aspectj-maven-plugin>1.8</org.codehaus.mojo-aspectj-maven-plugin>
         <org.codehaus.mojo-exec-maven-plugin>1.6.0</org.codehaus.mojo-exec-maven-plugin>
         <org.codehaus.plexus-plexus-utils>3.0.8</org.codehaus.plexus-plexus-utils>
-        <org.eclipse.jetty-jetty-util>9.4.12.v20180830</org.eclipse.jetty-jetty-util>
+        <!--<org.eclipse.jetty-jetty-util>9.4.12.v20180830</org.eclipse.jetty-jetty-util>-->
         <org.fusesource.jansi-jansi>1.16</org.fusesource.jansi-jansi>
         <org.javassist-javassist>3.25.0-GA</org.javassist-javassist>
         <org.jsoup-jsoup>1.8.1</org.jsoup-jsoup>
