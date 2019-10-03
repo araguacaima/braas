@@ -177,6 +177,7 @@
         <org.jooq-joor-java-8>0.9.12</org.jooq-joor-java-8>
         <org.mongodb-mongo-java-driver>3.11.0</org.mongodb-mongo-java-driver>
         <org.mongojack-mongojack>2.10.0</org.mongojack-mongojack>
+        <javax.servlet-javax.servlet-api>3.1.0</javax.servlet-javax.servlet-api>
     </properties>
 
     <dependencyManagement>
@@ -486,6 +487,13 @@
                 <groupId>org.mongodb</groupId>
                 <artifactId>mongo-java-driver</artifactId>
                 <version>${org.mongodb-mongo-java-driver}</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${javax.servlet-javax.servlet-api}</version>
                 <scope>compile</scope>
             </dependency>
 
