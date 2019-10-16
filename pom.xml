@@ -124,8 +124,9 @@
         <maven.skipTests>true</maven.skipTests>
         <maven.surefire.version>2.13</maven.surefire.version>
         <minimum-maven-version>3.1</minimum-maven-version>
-        <org.apache.commons-beanutils>1.9.1</org.apache.commons-beanutils>
+        <org.apache.commons-beanutils>1.9.4</org.apache.commons-beanutils>
         <org.apache.commons-commons-collections4>4.2</org.apache.commons-commons-collections4>
+        <commons-collections-commons-collections>3.2.2</commons-collections-commons-collections>
         <org.apache.commons-commons-lang3>3.5</org.apache.commons-commons-lang3>
         <org.apache.commons-commons-math3>3.6.1</org.apache.commons-commons-math3>
         <org.apache.commons-fileupload>1.2.2</org.apache.commons-fileupload>
@@ -490,6 +491,13 @@
                 <groupId>org.mongodb</groupId>
                 <artifactId>mongo-java-driver</artifactId>
                 <version>${org.mongodb-mongo-java-driver}</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>${commons-collections-commons-collections}</version>
                 <scope>compile</scope>
             </dependency>
 
