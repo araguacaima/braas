@@ -74,7 +74,7 @@
     <properties>
         <aspectj.version>1.8.4</aspectj.version>
         <backport-util-concurrent-backport-util-concurrent>3.1</backport-util-concurrent-backport-util-concurrent>
-        <com.araguacaima-commons-utils>1.1</com.araguacaima-commons-utils>
+        <com.araguacaima-commons-utils>1.2</com.araguacaima-commons-utils>
         <com.fasterxml.jackson.core-jackson-annotations>2.9.8</com.fasterxml.jackson.core-jackson-annotations>
         <com.fasterxml.jackson.core-jackson-core>2.9.8</com.fasterxml.jackson.core-jackson-core>
         <com.fasterxml.jackson.core-jackson-databind>2.9.8</com.fasterxml.jackson.core-jackson-databind>
