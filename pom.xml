@@ -171,7 +171,7 @@
         <rome.version>1.5.0</rome.version>
         <slf4j.version>1.7.26</slf4j.version>
         <snowdrop.version>4.0.0.Final</snowdrop.version>
-        <sparkPac4j.version>2.3.0</sparkPac4j.version>
+        <sparkPac4j.version>3.0.0</sparkPac4j.version>
         <org.jooq-joor-java-8>0.9.12</org.jooq-joor-java-8>
         <org.mongodb-mongo-java-driver>3.11.0</org.mongodb-mongo-java-driver>
         <org.mongojack-mongojack>2.10.0</org.mongojack-mongojack>
@@ -340,7 +340,11 @@
                 <artifactId>spark-pac4j</artifactId>
                 <version>${sparkPac4j.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.pac4j</groupId>
+                <artifactId>pac4j-core</artifactId>
+                <version>${pac4j.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.pac4j</groupId>
                 <artifactId>pac4j-oauth</artifactId>
