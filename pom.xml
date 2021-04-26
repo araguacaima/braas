@@ -102,7 +102,7 @@
         <com.sparkjava-spark-template-jade>2.7.1</com.sparkjava-spark-template-jade>
         <com.sun.mail-javax.mail>1.6.2</com.sun.mail-javax.mail>
         <com.thoughtworks.paranamer-paranamer>2.7</com.thoughtworks.paranamer-paranamer>
-        <commons-io-commons-io>2.6</commons-io-commons-io>
+        <commons-io-commons-io>2.7</commons-io-commons-io>
         <cz.jirutka.rsql-rsql-parser>2.1.0</cz.jirutka.rsql-rsql-parser>
         <dandelion.datatables.version>0.9.3</dandelion.datatables.version>
         <de.neuland-bfi-jade4j>1.2.5</de.neuland-bfi-jade4j>
