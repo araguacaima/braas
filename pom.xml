@@ -173,7 +173,7 @@
         <snowdrop.version>4.0.0.Final</snowdrop.version>
         <sparkPac4j.version>3.0.0</sparkPac4j.version>
         <org.jooq-joor-java-8>0.9.12</org.jooq-joor-java-8>
-        <org.mongodb-mongo-java-driver>3.11.0</org.mongodb-mongo-java-driver>
+        <org.mongodb-mongo-java-driver>3.11.3</org.mongodb-mongo-java-driver>
         <org.mongojack-mongojack>2.10.0</org.mongojack-mongojack>
         <javax.servlet-javax.servlet-api>3.1.0</javax.servlet-javax.servlet-api>
     </properties>
